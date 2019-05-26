@@ -1,3 +1,15 @@
 @import "bootstrap/dist/css/bootstrap.css";
 @import 'exchanges';
 @import 'exchange_box';
+@import "flag-icon";
+@import "materialize";
+
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('fonts/OpenSansCondensed-Light.ttf');
+}
+
+body{
+  font-family: 'Open Sans Condensed';
+}
