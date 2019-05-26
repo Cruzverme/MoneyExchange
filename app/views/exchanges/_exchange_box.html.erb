@@ -14,7 +14,7 @@
           </div>
 
           <div class='form-group'>
-            <input type='number' name='amount' id='amount' class='form-control' placeholder='<%= t :amount  %>' step='any' required>
+            <input type='number' name='amount' id='amount' class='form-control' placeholder='<%= t :amount  %>' step='any'  min=0 required>
           </div>
         </div>
                     
@@ -26,9 +26,6 @@
           <div class='form-group'>
             <input type='text' id='result' name='result' class='form-control' placeholder='<%= t :result %>' readonly>
           </div>
-        </div>
-        <div>
-          <button type='submit' class='btn btn-primary btn-exchange col-md-12'>CONVERTER</button>
         </div>
       <% end %>
     </div>
