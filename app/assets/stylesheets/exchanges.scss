@@ -14,14 +14,19 @@ body {
 .title-box{
   margin-top: 20%;
 
+  .background-substitle{
+    background-color: #000000;
+    opacity: 0.5;
+  }
+
   .title{
     color: white;
     text-shadow: 2px 0px 2px #000000;
   }
 
   .subtitle{
-    color: #a5d6a7;
-    text-shadow: 3px 2px 3px #000000;
+    color: #fafafa;
+    text-shadow: 3px 2px 3px #011404;
     font-size: 30px;
     margin-left: 10px;
     margin-right: 10px;

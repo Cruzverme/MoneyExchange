@@ -14,10 +14,10 @@
           </div>
 
           <div class='form-group'>
-            <input type='number' name='amount' id='amount' class='form-control' placeholder='<%= t :amount  %>' step='any'  min=0 required>
+            <input type='number' name='amount' id='amount' class='form-control' placeholder='<%= t :amount  %>' step='any'  min=0 autofocus required>
           </div>
         </div>
-                    
+        
         <div class='destination_currency'>
           <div class='form-group'>
             <p class='title'><%= t :desired_currency %></p>
@@ -27,6 +27,11 @@
             <input type='text' id='result' name='result' class='form-control' placeholder='<%= t :result %>' readonly>
           </div>
         </div>
+
+        <div class='form-group'>
+          <button type='button' class='form-control btn' id='button_change_currency' ><span><%= fa_icon "random" %> <%= t :changing_currency %> </span></button>
+        </div>
+
       <% end %>
     </div>
   </div>
