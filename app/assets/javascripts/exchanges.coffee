@@ -2,6 +2,14 @@ $(document).ready ->
 
    $('form').submit (e) ->
     e.preventDefault();
+   
+   $('#target_currency').change ->
+    $('#amount').val("");
+    $('#result').val("");
+
+   $('#source_currency').change ->
+    $('#amount').val("");
+    $('#result').val("");
 
    ### Button change currency ###
 
