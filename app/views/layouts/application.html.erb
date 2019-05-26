@@ -11,12 +11,13 @@
   </head>
 
   <body>
-    <a href="<%= request.path %>?locale=en">
+    <a href="<%= request.path %>?locale=en" onclick="location.href='/?locale=en';">
       <span class="flag-icon flag-icon-us"></span>
     </a>
-    <a href="<%= request.path %>?locale=pt-BR">
+    <a href="<%= request.path %>?locale=pt-BR" onclick="location.href='/?locale=pt-BR';">
       <span class="flag-icon flag-icon-br"></span>
     </a>
+
     <%= yield %>
   </body>
 </html>
